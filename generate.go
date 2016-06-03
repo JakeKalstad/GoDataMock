@@ -34,8 +34,6 @@ func rFloat64() float64 {
 	return float64(rInt())
 }
 
-//Get(myDataArray, number of items)
-//
 func (g *Generator) Get(data interface{}, num int) interface{} {
 	original := reflect.ValueOf(data)
 	copy := reflect.New(original.Type()).Elem()
