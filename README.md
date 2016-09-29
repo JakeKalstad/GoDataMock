@@ -47,13 +47,6 @@ func TestGen(t *testing.T) {
 ### Installation
     go get "github.com/JakeKalstad/GoDataMock"
 
-### Todos
-
- - Write Tests
- - Rethink Github Save
- - Add Code Comments
- - Add Night Mode
-
 License
 ----
 
